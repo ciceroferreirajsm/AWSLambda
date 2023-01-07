@@ -1,0 +1,24 @@
+﻿//{
+//  "ValorTotal": 0,
+//  "Cliente": {
+//    "Id": "1",
+//    "Nome": "Cicero Junior",
+//    "Cpf": "43023402078",
+//    "Email": "cicero@gmail.com"
+//  },
+//  "Pagamento": {
+//    "NumeroDoCartao": "5228450341991943",
+//    "Validade": "15/07/2022",
+//    "CVV": "232"
+//  },
+//  "Produtos": [
+//    {
+//      "Id": "1",
+//      "Quantidade": 4
+//    },
+//    {
+//      "Id": "1",
+//      "Quantidade": 2
+//    }
+//  ]
+//}
