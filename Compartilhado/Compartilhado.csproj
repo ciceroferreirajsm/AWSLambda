@@ -1,11 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.101.20" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.101.20" />
+		<PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
+		<PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.3.0" />
+		<PackageReference Include="Amazon.Lambda.DynamoDBEvents" Version="2.1.1" />
+	</ItemGroup>
 
 </Project>
